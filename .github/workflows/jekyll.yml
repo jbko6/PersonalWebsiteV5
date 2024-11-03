@@ -47,12 +47,12 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
-          destination: ./_site/blog
+          destination: ./blog
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: ./
 
   # Deployment job
   deploy:

@@ -1,4 +1,4 @@
-_site/blog
+/blog
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
