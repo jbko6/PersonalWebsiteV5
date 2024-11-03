@@ -1,0 +1,25 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+description: |
+  Hey there! I'm Jonah, a first-year computer science student at the <a href="https://www.uw.edu">University of Washington</a> in Seattle.
+  
+  Since I'm a first year, I'm still exploring what interests me in computer science. 
+  
+  Outside of CS, I like to bike, hike, and explore the city. I'm very interested in city planning, and I'm looking to minor in Urban Planning (as well as Mathematics) at UW.
+
+  On this website you can find my resume, my contact information, as well as my various thoughts on urban planning, computer science, and whatever else interests me.
+entries:
+  - title: what's this?
+    entries:
+      - title: my projects and musings
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: rss
+    url: feed.xml

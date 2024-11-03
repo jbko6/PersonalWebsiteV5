@@ -2,12 +2,13 @@
 layout: default
 ---
 <header>
-  <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
+  {%-if site.data.home.show_picture-%}
+    <img src="{{ site.data.home.picture_source | relative_url }}" width="200">
   {%-endif-%}
+  <h1>{{ site.title }}</h1>
+  {{ site.data.home.description | newline_to_br | markdownify | remove: "<p>" | remove: "</p>" }}
 </header>
 
-{%-include menu_item.html collection=site.data.menu.entries-%}
+{%-include menu_item.html collection=site.data.home.entries-%}
 
 {{ content }}
