@@ -1,0 +1,22 @@
+Contact me
+<ul>
+    {%-if site.email-%}
+        <li id="email">
+            <button id="email-request">show email</button>
+            <script type="text/javascript">
+                console.log("hi")
+                function showEmail(){
+                    var email = window.atob("{{site.email_encrypted}}");
+                    document.getElementById('email').innerHTML= "<a href='mailto:" + email + "'>" + email + "</a>";
+                    console.log("wow")
+                }
+                document.getElementById('email-request').addEventListener("click", showEmail, false);
+            </script>
+        </li>
+    {%-endif-%}
+    {%-if site.github-%}
+        <li>
+            <a href="https://www.github.com/{{site.github_username}}">{{ site.github_username }} on Github</a>
+        </li>
+    {%-endif-%}
+</ul>

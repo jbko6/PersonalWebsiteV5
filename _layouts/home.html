@@ -9,6 +9,8 @@ layout: default
   {{ site.data.home.description | newline_to_br | markdownify | remove: "<p>" | remove: "</p>" }}
 </header>
 
+<hr>
+
 {%-include menu_item.html collection=site.data.home.entries-%}
 
 {{ content }}

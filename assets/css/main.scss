@@ -2,3 +2,9 @@
 ---
 
 @import "no-style-please";
+@media (prefers-color-scheme: dark) {
+    @import "highlight-dark";
+}
+@media (prefers-color-scheme: light) {
+    @import "highlight-light";
+}

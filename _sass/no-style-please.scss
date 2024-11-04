@@ -1,15 +1,25 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-  filter: invert(1);
-  img {
+  background: black;
+  color: white;
+  a {
+    color: lightblue;
+  }
+  a:visited {
+    color: plum;
+  }
+  button {
     filter: invert(1);
-
-    &.ioda { filter: invert(0); }
+  }
+  blockquote {
+    border-color: white;
+  }
+  table, th, td {
+    border-color: white;
   }
 }
 
 body[a="dark"] { @include dark-appearance; }
-
 
 @media (prefers-color-scheme: dark) {
   body[a="auto"] { @include dark-appearance; }
@@ -65,11 +75,6 @@ table, th, td {
   border: thin solid black;
   border-collapse: collapse;
   padding: 0.4rem;
-}
-
-code {
-  color: white;
-  background: black;
 }
 
 div.highlighter-rouge code {

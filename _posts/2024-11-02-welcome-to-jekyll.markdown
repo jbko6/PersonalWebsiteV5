@@ -14,15 +14,31 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
+```ruby
 def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+```
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+> Testing out a block quote
+>
+> Just image this is prolific
+>
+> Something really neat.
+
+There's the quote.
+
+---
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
