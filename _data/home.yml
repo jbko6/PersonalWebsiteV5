@@ -9,17 +9,21 @@ description: |
   Outside of CS, I like to bike, hike, and explore the city. I'm very interested in city planning, and I'm looking to minor in Urban Planning (as well as Mathematics) at UW.
 
   On this website you can find my <a href="#resume">resume</a>, <a href="/about">my contact information</a>, as well as my various thoughts on urban planning, computer science, and whatever else interests me.
+title: My recent posts
 entries:
-  - title: what's this?
-    entries:
-      - title: my projects and musings
-
-  - title: all posts
+  - title: My recent posts
     post_list:
       limit: 5
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
-
+  - title: My computer science posts
+    post_list:
+      limit: 5
+      category: computer_science
+  - title: My urban planning posts
+    post_list:
+      limit: 5
+      category: urban_planning
   - title: rss
     url: feed.xml
