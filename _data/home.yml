@@ -12,18 +12,20 @@ description: |
 title: My recent posts
 entries:
   - title: My recent posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
-  - title: My computer science posts
-    post_list:
-      limit: 5
-      category: computer_science
-  - title: My urban planning posts
-    post_list:
-      limit: 5
-      category: urban_planning
+    entries:
+    - title: My recent computer science posts
+      post_list:
+        limit: 5
+        category: computer_science
+    - title: My recent urban planning posts
+      post_list:
+        limit: 5
+        category: urban_planning
+    - title: Other recent posts
+      post_list:
+        limit: 5
+        category: other
+  - title: archive
+    url: archive
   - title: rss
     url: feed.xml
