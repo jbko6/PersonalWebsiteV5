@@ -42,6 +42,9 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Verify symlinks
+        run: |
+          find . -type l -exec test ! -e {} \; -print
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         uses: actions/jekyll-build-pages@v1
