@@ -26,7 +26,6 @@ baseurl: /      # place folder name if the site is served in a subfolder
 permalink: pretty
 github_username:  jbko6
 goat_counter: jonahkowal
-repository: jbko6/PersonalWebsiteV5
 
 theme_config:
   appearance: auto
