@@ -13,15 +13,15 @@ title: My recent posts
 entries:
   - title: My recent posts
     entries:
-    - title: My recent computer science posts
+    - title: My computer science posts
       post_list:
         limit: 5
         category: computer_science
-    - title: My recent urban planning posts
+    - title: My urban planning posts
       post_list:
         limit: 5
         category: urban_planning
-    - title: Other recent posts
+    - title: Other posts
       post_list:
         limit: 5
         category: other
