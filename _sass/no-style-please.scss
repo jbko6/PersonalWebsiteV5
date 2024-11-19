@@ -19,12 +19,12 @@
   }
 }
 
-body[a="dark"] { @include dark-appearance; }
-html [a="dark"] { @include dark-appearance; }
+body[data-a="dark"] { @include dark-appearance; }
+html:has(body[data-a="dark"]) { @include dark-appearance; }
 
 @media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
-  html[a="auto"] { @include dark-appearance; }
+  body[data-a="auto"] { @include dark-appearance; }
+  html:has(body[data-a="auto"]) { @include dark-appearance; }
 }
 // -------------------------------------------- //
 
@@ -98,4 +98,27 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+.theme-switcher {
+  position:absolute;
+  top:0.5em;
+  right:1em;
+  font-size:xx-large;
+  background: none;
+  border: none;
+  transition: text-shadow 0.2s;
+  cursor: pointer;
+}
+
+.theme-switcher:hover {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #f0a,
+    0 0 82px #fa0,
+    0 0 92px #f0a,
+    0 0 102px #f0a,
+    0 0 151px #f0a;
 }

@@ -1,7 +1,45 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: "en" }}" a="{{ site.theme_config.appearance | default: "auto" }}">
+<html lang="{{ page.lang | default: "en" }}">
   {%- include head.html -%}
-  <body a="{{ site.theme_config.appearance | default: "auto" }}">
+  <body data-a="{{ site.theme_config.appearance | default: "auto" }}">
+    <button class="theme-switcher" id="theme-switcher-dark" style="visibility: hidden;">◐</button>
+    <button class="theme-switcher" id="theme-switcher-light" style="visibility: hidden;">☀</button>
+    <script>
+      const darkSwitch = document.getElementById("theme-switcher-dark")
+      const lightSwitch = document.getElementById("theme-switcher-light")
+      const themeOwner = document.body
+      const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)")
+      const lightModePreference = window.matchMedia("(prefers-color-scheme: light)")
+
+      function switchThemeDark() {
+        themeOwner.dataset["a"] = "light"
+        switchSwitchesDark()
+      }
+      function switchSwitchesDark() {
+        darkSwitch.style.visibility = 'hidden'
+        lightSwitch.style.visibility = 'visible'
+      }
+      function switchThemeLight() {
+        themeOwner.dataset["a"] = "dark"
+        switchSwitchesLight()
+      }
+      function switchSwitchesLight() {
+        lightSwitch.style.visibility = 'hidden'
+        darkSwitch.style.visibility = 'visible'
+      }
+      function init() {
+        if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
+          switchSwitchesDark()
+        } else {
+          switchSwitchesLight()
+        }
+      }
+      darkSwitch.addEventListener("click", switchThemeDark)
+      lightSwitch.addEventListener("click", switchThemeLight)
+      darkModePreference.addEventListener("change", e => e.matches && switchSwitchesLight())
+      lightModePreference.addEventListener("change", e => e.matches && switchSwitchesDark())
+      document.addEventListener("DOMContentLoaded", init)
+    </script>
     <main class="page-content" aria-label="Content">
       <div class="w">
         {{ content }}
