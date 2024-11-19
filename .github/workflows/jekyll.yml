@@ -48,7 +48,7 @@ jobs:
         run: |
           find . -type l -exec test ! -e {} \; -print
       - name: Build with Jekyll
-        run: JEKYLL_ENV=production bundle exec jekyll build
+        uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
