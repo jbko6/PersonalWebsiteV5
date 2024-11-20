@@ -1,0 +1,41 @@
+name: Jonah Kowal
+phone-number: 425-362-8509
+email: jonahkowal@duck.com
+linkedin-username: jonahkowal
+github-username: jbko6
+
+education:
+  - school: University of Washington
+    location: Seattle, WA
+    degree: Bachelor of Science in Computer Science, Minors in Mathematics & Urban Planning
+    years: Sep. 2024 - Jun. 2027
+ 
+experience:
+  - position: Position
+    years: 2020 - Present
+    employer: REI
+    location: Seattle, WA
+    details:
+      - One detail
+      - Two detail
+      - Three detail
+
+projects:
+  - title: My Project
+    tools: Flask, React, HTML, CSS
+    years: June 2024 - Present
+    details:
+     - Project detail
+     - This project is really cool!
+  - title: Another project
+    tools: Java, C, C++, Java Spring, Unity
+    years: June 2024 - Sep. 2024
+    details:
+     - This is another project
+     - Wow!
+
+skills:
+  languages: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R
+  frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI
+  tools: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
+  libraries: pandas, NumPy, Matplotlib

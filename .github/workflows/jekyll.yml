@@ -53,6 +53,11 @@ jobs:
           find . -type l -exec test ! -e {} \; -print
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
+      - name: Convert LaTeX to PDF
+        uses: thomas-chauvet/latex2pdf-action@1.1.0
+        with:
+          output_dir: _site/
+          main_latex_file: _site/resume.tex
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
