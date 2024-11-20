@@ -53,7 +53,8 @@ jobs:
           find . -type l -exec test ! -e {} \; -print
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-      - uses: xu-cheng/latex-action@v3
+      - name: Convert LaTeX to PDF
+        uses: xu-cheng/latex-action@v3
         with: 
           root_file: ./_site/resume.tex
           work_in_root_file_dir: true
