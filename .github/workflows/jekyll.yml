@@ -58,6 +58,7 @@ jobs:
         with:
           output_dir: _site/
           main_latex_file: _site/resume.tex
+          ctan_packages: latexsym fullpage titlesec marvosym color verbatim enumitem hyperref fancyhdr babel tabularx
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
