@@ -36,7 +36,7 @@ projects:
     years: Jun. 2024 - Aug. 2024
     details:
      - A web app built with Typescript and Python
-     - Periodically crawls Craigslist for product prices to track & predict trends over time. 
+     - Periodically crawls Craigslist for product prices to track and predict trends over time. 
      - I built the frontend with React, the backend with Flask, and stored data with MongoDB.
   - title: Song Censor
     tools: Python, Deepgram, Node.js, FFmpeg
