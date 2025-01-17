@@ -16,7 +16,7 @@ education:
  
 experience:
   - position: Administrative Intern
-    years: Jun. 2024 - Sep. 2024
+    years: Jun. 2024 - Dec. 2024
     employer: St. James Cathedral
     location: Seattle, WA
     details:
@@ -32,6 +32,18 @@ experience:
       - Facilitated customer relations, operated cash registers, and ensured impulse buys were consistently stocked.
 
 projects:
+  - title: Show and Tell
+    tools: Java Spring, React, Typescript, MongoDB, Auth0
+    years: Oct. 2024
+    details:
+      - Social media platform built in a weekend for Dubhacks Hackathon
+      - Connects users with others with similar interests, encouraging inspiration through cyclical sharing
+      - I built the backend with Java Spring, integrating MongoDB and Auth0, and assisted with the frontend.
+  - title: Command Line Checkers
+    tools: Java
+    years: Oct. 2024 - Dec. 2024
+    details:
+      - Replica of the board game Checkers built with Java played on the command line
   - title: Craigslist Tracker
     tools: React, Typescript, Python (Flask), MongoDB
     years: Jun. 2024 - Aug. 2024
