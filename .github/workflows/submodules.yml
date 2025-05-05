@@ -23,6 +23,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         submodules: true
+        token: ${{ secrets.PULL_TOKEN }}
 
     # Update references
     - name: Git Submodule Update
