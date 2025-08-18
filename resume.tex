@@ -76,8 +76,8 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-      \ifthenelse{\equal{#5}{}}{}{\vspace{2pt}\textit{\small  Coursework:#5} \\}
     \end{tabular*}
+    \ifthenelse{\equal{#5}{}}{}{\vspace{2pt}\textit{\small  Coursework: #5} \\}
   \vspace{-7pt}
 }
 
@@ -125,9 +125,9 @@
   \resumeSubHeadingListStart
     {%- for uni in site.data.resume.education -%}
     \resumeSubheading
-      { {{uni.school}} }{ {{uni.location}} }
-      { {{uni.degree}} }{ {{uni.years}} }
-      { {{uni.coursework}} }
+      {{{uni.school}}}{{{uni.location}}}
+      {{{uni.degree}}}{{{uni.years}}}
+      {{{uni.coursework}}}
     {%- endfor -%}
   \resumeSubHeadingListEnd
 
