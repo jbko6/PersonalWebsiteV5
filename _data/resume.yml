@@ -8,7 +8,7 @@ education:
   - school: University of Washington
     location: Seattle, WA
     degree: "Bachelor of Science in Computer Science; GPA: 3.91"
-    years: Sep. 2024 - Jun. 2027  f
+    years: Sep. 2024 - Jun. 2027
     coursework: Data Structures \& Parallelism, Fundamentals of Computing I (Discrete Math) \& II (Probability)
   - school: Sammamish High School
     location: Bellevue, WA
@@ -74,6 +74,7 @@ skills:
   frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI
   tools: Git, Docker, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
   libraries: pandas, NumPy, Matplotlib, date-fns, ical.js
+
 
 
 
