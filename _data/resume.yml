@@ -7,7 +7,7 @@ github-username: jbko6
 education:
   - school: University of Washington
     location: Seattle, WA
-    degree: "Bachelor of Science in Computer Science; GPA: 3.95"
+    degree: "Bachelor of Science in Computer Science; GPA: 3.91"
     years: Sep. 2024 - Jun. 2027  
   - school: Sammamish High School
     location: Bellevue, WA
@@ -15,23 +15,38 @@ education:
     years: Sep. 2020 - Jun. 2024
  
 experience:
+  - position: Instructional Assistant
+    years: Jun. 2025 - Aug. 2025
+    employer: Univ. of Washington Youth & Teen Programs
+    location: Seattle, WA
+    details:
+      - Assisted in three classes teaching the next generation of students Java
+      - Boosted learning by eagerly answering questions as they arose
+      - Guided students with their own projects as they explored programming topics that engaged them.
+      - Presented and gave advice on navigating AI in our current world
   - position: Administrative Intern
-    years: Jun. 2024 - Dec. 2024
+    years: Jun. 2024 - Present
     employer: St. James Cathedral
     location: Seattle, WA
     details:
       - St. James Cathedral is a Seattle landmark and mother church of the Archdiocese of Seattle. In addition to regular religious services, it provides immigration assistance, mental health services, and assistance to the homeless.
       - Boosted Children’s program efficiency by supporting transition from paper tracking to a full online system.
       - Designed attractive flyers and graphics to market Cathedral programs.
-  - position: Sales Associate
-    years: Aug. 2022 - Dec. 2022
-    employer: Recreation Equipment Inc.
-    location: Issaquah, WA
-    details:
-      - Recreational Equipment Inc. (REI) is a major American outdoors equipment retailer.
-      - Facilitated customer relations, operated cash registers, and ensured impulse buys were consistently stocked.
 
 projects:
+  - title: Ubiuifi Newtab
+    tools: Svelte, Typescript, Figma
+    years: May 2025 - Present
+    details:
+      - In-development browser extension that replaces the default browser new tab with a customizable dashboard
+      - Pulls data from several sources including Google Calendar, Open-Meteo Weather, Github, Gradescope, Canvas, and more to provide users with a broad overview of what they need to know
+      - Designed with Figma with user documentation provided via a Jekyll-based doc. website
+  - title: 15th Avenue Photobooth
+    tools: Svelte, Figma
+    years: Jun. 2025
+    details:
+      - Weekend project utilizing public traffic cameras and repurposing them into a public photobooth
+      - I saw an opportunity - a traffic camera facing a pedestrian overpass above a busy road - and transformed it into an entertaining service
   - title: Show and Tell
     tools: Java Spring, React, Typescript, MongoDB, Auth0
     years: Oct. 2024
@@ -39,11 +54,6 @@ projects:
       - Social media platform built in a weekend for Dubhacks Hackathon
       - Connects users with others with similar interests, encouraging inspiration through cyclical sharing
       - I built the backend with Java Spring, integrating MongoDB and Auth0, and assisted with the frontend.
-  - title: Command Line Checkers
-    tools: Java
-    years: Oct. 2024 - Dec. 2024
-    details:
-      - Replica of the board game Checkers built with Java played on the command line
   - title: Craigslist Tracker
     tools: React, Typescript, Python (Flask), MongoDB
     years: Jun. 2024 - Aug. 2024
@@ -51,19 +61,10 @@ projects:
      - A web app built with Typescript and Python
      - Periodically crawls Craigslist for product prices to track and predict trends over time. 
      - I built the frontend with React, the backend with Flask, and stored data with MongoDB.
-  - title: Song Censor
-    tools: Python, Deepgram, Node.js, FFmpeg
-    years: Jan. 2024 - Mar. 2024
-    details:
-     - A Node.js command line application for censoring explicit words from audio using Deepgram’s transcription API and FFmpeg.
-  - title: Lookup
-    tools: Python, Discord Bot API, Wikipedia, Reddit, Youtube APIs
-    years: Sep. 2023 - Nov. 2023
-    details:
-     - A Discord bot built with Python that provides interfaces to look up information from Wikipedia, YouTube, Reddit, and other online information repositories using their various APIs.
 
 skills:
-  languages: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R
-  frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI
-  tools: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
-  libraries: pandas, NumPy, Matplotlib
+  languages: Java, Python, C/C++, SQL, JavaScript, HTML/CSS
+  frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI
+  tools: Git, Docker, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
+  libraries: pandas, NumPy, Matplotlib, date-fns, ical.js
+
