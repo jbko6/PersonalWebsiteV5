@@ -76,8 +76,8 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
+      \ifthenelse{\equal{#5}{}}{}{\vspace{2pt}\textit{\tiny Relevant Coursework: #5} \\}
     \end{tabular*}
-    \ifthenelse{\equal{#5}{}}{}{\vspace{2pt}\textit{\small Relevant Coursework: #5}}
   \vspace{-7pt}
 }
 
