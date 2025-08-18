@@ -77,7 +77,7 @@
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small#4} \\
     \end{tabular*}
-    \ifthenelse{\equal{#5}{}}{}{\vspace{2pt}\textit{\small  Coursework:#5}}
+    \ifthenelse{\equal{#5}{  }}{}{\vspace{2pt}\textit{\small   Coursework:#5}}
   \vspace{-7pt}
 }
 
@@ -114,9 +114,9 @@
 
 \begin{center}
     \textbf{\Huge \scshape {{site.data.resume.name}}} \\ \vspace{1pt}
-    \small {{site.data.resume.phone-number}} $|$ \href{mailto:x@x.com}{\underline{ {{site.data.resume.email}} }} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/{{site.data.resume.linkedin-username}}}} $|$
-    \href{https://github.com/...}{\underline{github.com/{{site.data.resume.github-username}}}}
+    \small {{site.data.resume.phone-number}} $|$ \href{mailto:{{site.data.resume.email}}}{\underline{ {{site.data.resume.email}} }} $|$ 
+    \href{https://linkedin.com/in/{{site.data.resume.linkedin-username}}}{\underline{linkedin.com/in/{{site.data.resume.linkedin-username}}}} $|$
+    \href{https://github.com/{{site.data.resume.github-username}}}{\underline{github.com/{{site.data.resume.github-username}}}}
 \end{center}
 
 
@@ -140,7 +140,7 @@
     \resumeSubheading
       { {{experience.position}} }{ {{experience.years}} }
       { {{experience.employer}} }{ {{experience.location}} }
-      {}
+      {  }
       \resumeItemListStart
         {%- for detail in experience.details -%}
         \resumeItem{ {{detail}} }
