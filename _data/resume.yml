@@ -50,7 +50,7 @@ projects:
       - Pulls data from several sources including Google Calendar, Open-Meteo Weather, Github, Gradescope, Canvas, and more to provide users with a broad overview of what they need to know
       - Designed with Figma with user documentation provided via a Jekyll-based doc. website
   - title: 15th Avenue Photobooth
-    tools: Svelte, Figma
+    tools: Svelte, Typescript, Figma
     years: Jun. 2025
     details:
       - Weekend project utilizing public traffic cameras and repurposing them into a public photobooth
@@ -75,6 +75,7 @@ skills:
   frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI
   tools: Git, Docker, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
   libraries: pandas, NumPy, Matplotlib, date-fns, ical.js
+
 
 
 
