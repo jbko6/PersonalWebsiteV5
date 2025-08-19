@@ -40,7 +40,6 @@ experience:
     details:
       - St. James Cathedral is a Seattle landmark and mother church of the Archdiocese of Seattle. In addition to regular religious services, it provides immigration assistance, mental health services, and assistance to the homeless.
       - Boosted Children’s program efficiency by supporting transition from paper tracking to a full online system.
-      - Designed attractive flyers and graphics to market Cathedral programs.
 
 projects:
   - title: Ubiquifi Newtab
@@ -76,6 +75,7 @@ skills:
   frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI
   tools: Git, Docker, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
   libraries: pandas, NumPy, Matplotlib, date-fns, ical.js
+
 
 
 
