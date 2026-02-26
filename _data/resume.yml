@@ -7,13 +7,9 @@ github-username: jbko6
 education:
   - school: University of Washington
     location: Seattle, WA
-    degree: "Bachelor of Science in Computer Science; GPA: 3.91"
+    degree: "Bachelor of Science in Computer Science; GPA: 3.93"
     years: Sep. 2024 - Jun. 2027
-    coursework: Data Structures \& Parallelism, Fundamentals of Computing I (Discrete Math) \& II (Probability)
-  - school: Sammamish High School
-    location: Bellevue, WA
-    degree: "High School Diploma; GPA: 4.0"
-    years: Sep. 2020 - Jun. 2024
+    coursework: Data Structures \& Parallelism, Discrete Math, Probability, Systems Programming, Software Design
  
 experience:
   - position: Teaching Assistant (TA)
@@ -23,7 +19,8 @@ experience:
     details:
       - Undergraduate TA for Computer Science introductory class
       - Teaching a 20+ person quiz section the fundamentals of Computer Science and Java
-      - Leading students in debugging code and guiding them towards solutions
+      - Created a custom Linked List visualizer to help students understand references and objects
+      - Accepted an offer to act as Grading Lead in Spring Quarter (March-June 2026)
   - position: Instructional Assistant
     years: Jun. 2025 - Aug. 2025
     employer: University of Washington Youth and Teen Programs
@@ -31,7 +28,7 @@ experience:
     details:
       - Assisted in three classes teaching the next generation of students Java
       - Boosted learning by eagerly answering questions as they arose
-      - Guided students with their own projects as they explored programming topics that engaged them.
+      - Guided students with their own projects as they explored programming concepts
       - Presented and gave advice on navigating AI in our current world
   - position: Administrative Intern
     years: Jun. 2024 - Sep. 2025
@@ -42,6 +39,13 @@ experience:
       - Boosted Children’s program efficiency by supporting transition from paper tracking to a full online system.
 
 projects:
+  - title: Linked Node Visualizer
+    tools: Svelte, Typescript
+    years: Nov. 2025 - Present
+    details:
+      - A visualizer for linked nodes, designed to help students understand references and objects in Java
+      - Used as a teaching aid in my TA role for the Computer Science introductory class at the University of Washington
+      - Helped more than 50 students learn the fundamentals of linked nodes
   - title: Ubiquifi Newtab
     tools: Svelte, Typescript, Figma
     years: May 2025 - Present
@@ -62,21 +66,11 @@ projects:
       - Social media platform built in a weekend for Dubhacks Hackathon
       - Connects users with others with similar interests, encouraging inspiration through cyclical sharing
       - I built the backend with Java Spring, integrating MongoDB and Auth0, and assisted with the frontend.
-  - title: Craigslist Tracker
-    tools: React, Typescript, Python (Flask), MongoDB
-    years: Jun. 2024 - Aug. 2024
-    details:
-     - A web app built with Typescript and Python
-     - Periodically crawls Craigslist for product prices to track and predict trends over time. 
-     - I built the frontend with React, the backend with Flask, and stored data with MongoDB.
 
 skills:
-  languages: Java, Python, C/C++, SQL, JavaScript, HTML/CSS
-  frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI
-  tools: Git, Docker, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
-  libraries: pandas, NumPy, Matplotlib, date-fns, ical.js
-
-
+  languages: Typescript, Java, Python, C++, C
+  frameworks: Svelte, React, Node.js, Flask, JUnit
+  tools: Git, Docker, VS Code, Codex, Claude Code, IntelliJ
 
 
 
