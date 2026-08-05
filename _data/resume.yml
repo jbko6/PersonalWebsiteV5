@@ -9,7 +9,11 @@ education:
     location: Seattle, WA
     degree: "Bachelor of Science in Computer Science; GPA: 3.93"
     years: Sep. 2024 - Jun. 2027
-    coursework: Data Structures \& Parallelism, Discrete Math, Probability, Systems Programming, Software Design
+    coursework: Distributed Systems, Data Structures, Discrete Math, Probability, Systems Programming
+  - school: University of Washington
+    location: Seattle, WA
+    degree: "Master of Science in Computer Science"
+    years: Admitted Sep. 2027 - Jun. 2028
  
 experience:
   - position: Teaching Assistant (TA)
@@ -17,10 +21,10 @@ experience:
     employer: University of Washington
     location: Seattle, WA
     details:
-      - Undergraduate TA for Computer Science introductory class
+      - Undergraduate TA for Computer Science introductory class with 300+ students
       - Teaching a 20+ person quiz section the fundamentals of Computer Science and Java
-      - Created a custom Linked List visualizer to help students understand references and objects
-      - Accepted an offer to act as Grading Lead in Spring Quarter (March-June 2026)
+      - Created a custom Java visualizer to help students understand references and objects
+      - Acting as grading lead since March 2026 creating new assignments and material for the course
   - position: Instructional Assistant
     years: Jun. 2025 - Aug. 2025
     employer: University of Washington Youth and Teen Programs
@@ -30,54 +34,38 @@ experience:
       - Boosted learning by eagerly answering questions as they arose
       - Guided students with their own projects as they explored programming concepts
       - Presented and gave advice on navigating AI in our current world
-  - position: Administrative Intern
-    years: Jun. 2024 - Sep. 2025
-    employer: St. James Cathedral
-    location: Seattle, WA
-    details:
-      - St. James Cathedral is a Seattle landmark and mother church of the Archdiocese of Seattle. In addition to regular religious services, it provides immigration assistance, mental health services, and assistance to the homeless.
-      - Boosted Children’s program efficiency by supporting transition from paper tracking to a full online system.
 
 projects:
-  - title: Linked Node Visualizer
+  - title: Voxel Game Engine
+    tools: Rust, Vulkan, GLSL
+    years: Jun. 2026 - Present
+    details:
+      - In-development voxel game engine built in Rust with Vulkan and GLSL
+      - Features a custom ECS and ground-up rendering system with a focus on performance and modularity
+  - title: Java Visualizer
     tools: Svelte, Typescript
     years: Nov. 2025 - Present
     details:
-      - A visualizer for linked nodes, designed to help students understand references and objects in Java
+      - Fully in-browser Java interpreter and visualizer built with Svelte and Typescript
+      - Primarily designed to help students understand references and objects in Java
       - Used as a teaching aid in my TA role for the Computer Science introductory class at the University of Washington
       - Helped more than 50 students learn the fundamentals of linked nodes
-  - title: Ubiquifi Newtab
-    tools: Svelte, Typescript, Figma
+  - title: TA Training Games
+    tools: Svelte, Typescript, Drizzle ORM, SQLite
+    years: Mar. 2026 - Jun. 2026
+    details:
+      - A collection of games designed to help train new TAs for the Computer Science introductory class at the University of Washington
+      - Multiplayer functionality provided via an SQLite database and Drizzle ORM
+      - Supported 80+ TAs playing the games concurrently in the Winter and Spring 2026 quarters
+  - title: Newtab
+    tools: Svelte, Lit, Typescript, Figma
     years: May 2025 - Present
     details:
       - In-development browser extension that replaces the default browser new tab with a customizable dashboard
       - Pulls data from several sources including Google Calendar, Open-Meteo Weather, Github, Gradescope, Canvas, and more to provide users with a broad overview of what they need to know
       - Designed in Figma with user documentation provided via a Jekyll-based doc. website
-  - title: 15th Avenue Photobooth
-    tools: Svelte, Typescript, Figma
-    years: Jun. 2025
-    details:
-      - Weekend project utilizing public traffic cameras and repurposing them into a public photobooth
-      - I saw an opportunity - a traffic camera facing a pedestrian overpass above a busy road - and transformed it into an entertaining service
-  - title: Show and Tell
-    tools: Java Spring, React, Typescript, MongoDB, Auth0
-    years: Oct. 2024
-    details:
-      - Social media platform built in a weekend for Dubhacks Hackathon
-      - Connects users with others with similar interests, encouraging inspiration through cyclical sharing
-      - I built the backend with Java Spring, integrating MongoDB and Auth0, and assisted with the frontend.
 
 skills:
-  languages: Typescript, Java, Python, C++, C
+  languages: Rust, Typescript, Java, Python, C++
   frameworks: Svelte, React, Node.js, Flask, JUnit
-  tools: Git, Docker, VS Code, Codex, Claude Code, IntelliJ
-
-
-
-
-
-
-
-
-
-
+  tools: Git, Docker, VS Code, Claude Code, IntelliJ
